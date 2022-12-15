@@ -2,15 +2,16 @@
 # https://en.wikipedia.org/wiki/List_of_open_file_formats
 
 # Godot
-*.gd text  diff=gdscript
-*.tscn text
-*.godot text
-*.tres text
-*.import text
-*.cfg text
+*.gd text eol=lf
+*.godot text eol=lf
+*.tres text eol=lf
+*.tscn text eol=lf
+*.cfg text eol=lf
+*.import text eol=lf
+* text=auto
 
 # other text
-*.md text
+*.md text eol=lf
 
 # we need to manually list the binary files we don't want modified.
 
