@@ -295,6 +295,31 @@ thirdparty/* linguist-vendored
     *.z3d binary
     *.zbmx binary
 
+# fonts
+    *.abf binary
+    *.afm binary
+    *.bdf binary
+    *.bmf binary
+    *.brfnt binary
+    *.fnt binary
+    *.fon binary
+    *.mgf binary
+    *.otf binary
+    *.pcf binary
+    *.pfa binary
+    *.pfb binary
+    *.pfm binary
+    *.afm binary
+    *.fond binary
+    *.sfd binary
+    *.snf binary
+    *.tdf binary
+    *.tfm binary
+    *.ttf binary
+    *.ttc binary
+    *.ufo binary
+    *.woff binary
+
 # other binary files
     *.bak binary
     *.bk binary
