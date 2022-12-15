@@ -1,0 +1,306 @@
+# https://github.com/godotengine/godot/blob/master/.gitattributes
+
+# Properly detect languages on Github
+*.h linguist-language=cpp
+*.inc linguist-language=cpp
+thirdparty/* linguist-vendored
+
+# Normalize EOL for all files that Git considers text files
+* text=auto eol=lf
+# Except for bat files, which are Windows only files
+*.bat eol=crlf
+# And some test files where the EOL matters
+*.test.txt -text
+
+# The above only works properly for Git 2.10+, so for older versions
+
+# we need to manually list the binary files we don't want modified.
+
+# images --------------------------------
+    # raster images
+        *.art binary
+        *.blp binary
+        *.bmp binary
+        *.bti binary
+        *.cd5 binary
+        *.cit binary
+        *.cpt binary
+        *.cr2 binary
+        *.clip binary
+        *.cpl binary
+        *.dds binary
+        *.dib binary
+        *.djvu binary
+        *.egt binary
+        *.exif binary
+        *.gif binary
+        *.grf binary
+        *.icns binary
+        *.ico binary
+        *.iff binary
+        *.ilbm binary
+        *.lbm binary
+        *.iff binary
+        *.jng binary
+        *.jfif binary
+        *.jpg binary
+        *.jpeg binary
+        *.jp2 binary
+        *.jps binary
+        *.kra binary
+        *.lbm binary
+        *.max binary
+        *.miff binary
+        *.mng binary
+        *.msp binary
+        *.nitf binary
+        *.otb binary
+        *.pbm binary
+        *.pc1 binary
+        *.pc2 binary
+        *.pc3 binary
+        *.pcf binary
+        *.pcx binary
+        *.pdn binary
+        *.pgm binary
+        *.pi1 binary
+        *.pi2 binary
+        *.pi3 binary
+        *.pict binary
+        *.pct binary
+        *.png binary
+        *.pnm binary
+        *.pns binary
+        *.ppm binary
+        *.psb binary
+        *.psd binary
+        *.pdd binary
+        *.psp binary
+        *.px binary
+        *.pxm binary
+        *.pxr binary
+        *.qfx binary
+        *.raw binary
+        *.rle binary
+        *.sct binary
+        *.sgi binary
+        *.rgb binary
+        *.int binary
+        *.bw binary
+        *.tga binary
+        *.targa binary
+        *.icb binary
+        *.vda binary
+        *.vst binary
+        *.pix binary
+        *.tiff binary
+        *.tif binary
+        *.vtf binary
+        *.xbm binary
+        *.xcf binary
+        *.xpm binary
+        *.zif binary
+
+    # Vector graphics
+        *.3dv binary
+        *.amf binary
+        *.awg binary
+        *.ai binary
+        *.cgm binary
+        *.cdr binary
+        *.cmx binary
+        *.dp binary
+        *.drawio binary
+        *.dxf binary
+        *.e2d binary
+        *.egt binary
+        *.eps binary
+        *.fs binary
+        *.gbr binary
+        *.odg binary
+        *.movie.byu binary
+        *.renderman binary
+        *.svg binary
+        *.3dmlw binary
+        *.stl binary
+        *..wrl binary
+        *.x3d binary
+        *.sxd binary
+        *.tgax binary
+        *.v2d binary
+        *.vdoc binary
+        *.vsd binary
+        *.vsdx binary
+        *.vnd binary
+        *.wmf binary
+        *.emf binary
+        *.art binary
+        *.xar binary
+
+# audio --------------------------------
+
+    # Uncompressed audio
+    *.8svx binary
+    *.16svx binary
+    *.aiff binary
+    *.aif binary
+    *.aifc binary
+    *.au binary
+    *.bwf binary
+    *.cdda binary
+    *.dsf binary
+    *.dff binary
+    *.raw binary
+    *.wav binary
+
+    # Compressed Audio
+    *.ra binary
+    *.rm binary
+    *.flac binary
+    *.la binary
+    *.pac binary
+    *.ape binary
+    *.ofr binary
+    *.ofs binary
+    *.off binary
+    *.rka binary
+    *.shn binary
+    *.tak binary
+    *.thd binary
+    *.tta binary
+    *.wv binary
+    *.wma binary
+    *.brstm binary
+    *.dts binary
+    *.dtshd binary
+    *.dtsma binary
+    *.dts binary
+    *.ast binary
+    *.aw binary
+    *.psf binary
+
+
+    # Lossy audio
+    *.ac3 binary
+    *.amr binary
+    *.mp1 binary
+    *.mp2 binary
+    *.mp3 binary
+    *.spx binary
+    *.gsm binary
+    *.wma binary
+    *.aac binary
+    *.mpc binary
+    *.vqf binary
+    *.ots binary
+    *.swa binary
+    *.vox binary
+    *.voc binary
+    *.dwd binary
+    *.smp binary
+    *.ogg binary
+
+
+# 3d graphics -----------------------------
+    *.3dmf binary
+    *.3dm binary
+    *.3mf binary
+    *.3ds binary
+    *.abc binary
+    *.ac binary
+    *.amf binary
+    *.an8 binary
+    *.aoi binary
+    *.asm binary
+    *.b3d binary
+    *.blend binary
+    *.block binary
+    *.bmd3 binary
+    *.bdl4 binary
+    *.brres binary
+    *.bfres binary
+    *.c4d binary
+    *.cal3d binary
+    *.ccp4 binary
+    *.cfl binary
+    *.cob binary
+    *.core3d binary
+    *.ctm binary
+    *.dae binary
+    *.dff binary
+    *.dpm binary
+    *.dts binary
+    *.egg binary
+    *.fact binary
+    *.fbx binary
+    *.g binary
+    *.glb binary
+    *.glm binary
+    *.gltf binary
+    *..hec binary
+    *.io binary
+    *.iob binary
+    *.jas binary
+    *.jmesh binary
+    *.ldr binary
+    *.lwo binary
+    *.lws binary
+    *.lxf binary
+    *.lxo binary
+    *.m3d binary
+    *.ma binary
+    *.max binary
+    *.mb binary
+    *.mpd binary
+    *.md2 binary
+    *.md3 binary
+    *.md5 binary
+    *.mdx binary
+    *.mesh binary
+    *.mesh binary
+    *.miobject binary
+    *.miparticle binary
+    *.mimodel binary
+    *.mm3d binary
+    *.mpo binary
+    *.mrc binary
+    *.nif binary
+    *.obj binary
+    *.off binary
+    *.ogex binary
+    *.ply binary
+    *.prc binary
+    *.prt binary
+    *.pov binary
+    *.r3d binary
+    *.rwx binary
+    *.sia binary
+    *.sib binary
+    *.skp binary
+    *.sldasm binary
+    *.sldprt binary
+    *.smd binary
+    *.u3d binary
+    *.usd binary
+    *.usda binary
+    *.usdc binary
+    *.usdz binary
+    *.vim binary
+    *.vrml97 binary
+    *.vue binary
+    *.vwx binary
+    *.wings binary
+    *.w3d binary
+    *.x binary
+    *.x3d binary
+    *.z3d binary
+    *.zbmx binary
+
+# other binary files
+    *.bak binary
+    *.bk binary
+    *.bin binary
+    *.dat binary
+    *.dsk binary
+    *.raw binary
+    *.szh binary
