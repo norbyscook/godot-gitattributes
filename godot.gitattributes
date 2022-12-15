@@ -1,4 +1,5 @@
 # https://github.com/godotengine/godot/blob/master/.gitattributes
+# https://en.wikipedia.org/wiki/List_of_open_file_formats
 
 # Properly detect languages on Github
 *.h linguist-language=cpp
@@ -179,7 +180,6 @@ thirdparty/* linguist-vendored
     *.aw binary
     *.psf binary
 
-
     # Lossy audio
     *.ac3 binary
     *.amr binary
@@ -199,7 +199,6 @@ thirdparty/* linguist-vendored
     *.dwd binary
     *.smp binary
     *.ogg binary
-
 
 # 3d graphics -----------------------------
     *.3dmf binary
