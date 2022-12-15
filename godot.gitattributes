@@ -139,64 +139,64 @@
     # audio --------------------------------
 
         # Uncompressed audio
-        *.8svx binary
-        *.16svx binary
-        *.aiff binary
-        *.aif binary
-        *.aifc binary
-        *.au binary
-        *.bwf binary
-        *.cdda binary
-        *.dsf binary
-        *.dff binary
-        *.raw binary
-        *.wav binary
+            *.8svx binary
+            *.16svx binary
+            *.aiff binary
+            *.aif binary
+            *.aifc binary
+            *.au binary
+            *.bwf binary
+            *.cdda binary
+            *.dsf binary
+            *.dff binary
+            *.raw binary
+            *.wav binary
 
         # Compressed Audio
-        *.ra binary
-        *.rm binary
-        *.flac binary
-        *.la binary
-        *.pac binary
-        *.ape binary
-        *.ofr binary
-        *.ofs binary
-        *.off binary
-        *.rka binary
-        *.shn binary
-        *.tak binary
-        *.thd binary
-        *.tta binary
-        *.wv binary
-        *.wma binary
-        *.brstm binary
-        *.dts binary
-        *.dtshd binary
-        *.dtsma binary
-        *.dts binary
-        *.ast binary
-        *.aw binary
-        *.psf binary
+            *.ra binary
+            *.rm binary
+            *.flac binary
+            *.la binary
+            *.pac binary
+            *.ape binary
+            *.ofr binary
+            *.ofs binary
+            *.off binary
+            *.rka binary
+            *.shn binary
+            *.tak binary
+            *.thd binary
+            *.tta binary
+            *.wv binary
+            *.wma binary
+            *.brstm binary
+            *.dts binary
+            *.dtshd binary
+            *.dtsma binary
+            *.dts binary
+            *.ast binary
+            *.aw binary
+            *.psf binary
 
         # Lossy audio
-        *.ac3 binary
-        *.amr binary
-        *.mp1 binary
-        *.mp2 binary
-        *.mp3 binary
-        *.spx binary
-        *.gsm binary
-        *.wma binary
-        *.aac binary
-        *.mpc binary
-        *.vqf binary
-        *.ots binary
-        *.swa binary
-        *.vox binary
-        *.voc binary
-        *.dwd binary
-        *.smp binary
-        *.ogg binary
+            *.ac3 binary
+            *.amr binary
+            *.mp1 binary
+            *.mp2 binary
+            *.mp3 binary
+            *.spx binary
+            *.gsm binary
+            *.wma binary
+            *.aac binary
+            *.mpc binary
+            *.vqf binary
+            *.ots binary
+            *.swa binary
+            *.vox binary
+            *.voc binary
+            *.dwd binary
+            *.smp binary
+            *.ogg binary
 
     # 3d graphics -----------------------------
         *.3dmf binary
@@ -319,7 +319,7 @@
         *.woff binary
 
 
-        # Video
+    # Video
         *.asf  binary
         *.avi  binary
         *.flv  binary
