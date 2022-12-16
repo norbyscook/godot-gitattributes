@@ -1,5 +1,6 @@
 # https://github.com/alexkaratarakis/gitattributes/blob/master/Unity.gitattributes
 # https://en.wikipedia.org/wiki/List_of_open_file_formats
+# https://stackoverflow.com/questions/74817835/how-do-i-add-gdscript-to-gitattributes
 
 # Godot
 *.gd text eol=lf
