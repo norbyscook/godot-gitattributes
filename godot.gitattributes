@@ -3,16 +3,15 @@
 # https://stackoverflow.com/questions/74817835/how-do-i-add-gdscript-to-gitattributes
 
 # Godot
-*.gd text eol=lf
-*.godot text eol=lf
-*.tres text eol=lf
-*.tscn text eol=lf
-*.cfg text eol=lf
-*.import text eol=lf
-* text=auto
+*.gd text=auto
+*.godot text=auto
+*.tres text=auto
+*.tscn text=auto
+*.cfg text=auto
+*.import text=auto
 
 # other text
-*.md text eol=lf
+*.md text=auto
 
 # we need to manually list the binary files we don't want modified.
 
