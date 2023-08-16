@@ -2,6 +2,7 @@
 # https://en.wikipedia.org/wiki/List_of_open_file_formats
 # https://stackoverflow.com/questions/74817835/how-do-i-add-gdscript-to-gitattributes
 
+# create macro for binary files wildcard
 [attr]BIN filter=lfs diff=lfs merge=lfs -text
 
 # Godot
