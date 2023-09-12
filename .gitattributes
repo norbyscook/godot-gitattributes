@@ -16,6 +16,9 @@
 # other text
 *.md text eol=lf
 
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
 # we need to manually list the binary files we don't want modified.
 
 # binary ======================================
